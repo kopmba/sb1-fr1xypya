@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ShoppingBag, MapPin, ChartBar } from 'lucide-react';
+import { ShoppingBag, MapPin/*, ChartBar */} from 'lucide-react';
 import { Line } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
@@ -84,13 +84,7 @@ export default function Home() {
           </p>
         </Link>
 
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <ChartBar className="h-12 w-12 text-indigo-600 mb-4" />
-          <h2 className="text-xl font-semibold mb-2">Statistiques</h2>
-          <p className="text-gray-600">
-            Suivez l'évolution de nos ventes.
-          </p>
-        </div>
+        
       </div>
 
       <div className="bg-white p-6 rounded-lg shadow-md">
